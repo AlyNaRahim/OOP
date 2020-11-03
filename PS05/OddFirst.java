@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* Write a Java program to rearrange all the elements of a given array of integers so that all the odd numbers come before all the even numbers. 
+The original order of odds and evens must be preserved. */
+
 public class OddFirst {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
