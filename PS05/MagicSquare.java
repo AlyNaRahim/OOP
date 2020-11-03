@@ -1,6 +1,11 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/* Write a method called isMagicSquare that accepts a two-dimensional array of integers as a parameter and returns true if it is a magic square. 
+A square matrix is a magic square if it is square in shape (same number of rows as columns, and every row the same length), 
+and all of its row, column, and diagonal sums are equal.
+Input is multidimensional Array */
+
 public class MagicSquare {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
