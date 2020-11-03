@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* Write a program that takes a sequence of integer numbers and N as an input from the user and prints out a modified version of the sequence as right-shifted by N. 
+You must stop getting input from the user when he/she enters an empty string (Return). */
+
 public class ShiftRight {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
