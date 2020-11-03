@@ -1,6 +1,8 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/* Write a method named digitSum that accepts an integer as a parameter and returns the sum of the digits of that number. */
+
 public class digitSum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
