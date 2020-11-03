@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+/* Write a Java program to count the letters, spaces, numbers and other characters of an input string.
+    
+    Input:
+    The string is : Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33
+    
+    Output:
+    letter: 34
+    space: 14
+    number: 10
+    other: 7 */
+
 public class LettersSpacesNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
