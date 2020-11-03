@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/* Write a program that takes input 10 integer numbers and stores it in an array. 
+Afterward, decide whether this array can be balanced or not. 
+An array is balanced if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side. */
+
+
 public class BalancedArray {
     public static void main(String[] args) {
         // input from user and splitting based on space
