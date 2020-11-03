@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/* Given the size of an array of doubles as N, get all numbers from the user. Afterward, find and output the second smallest element from the array */
+
 public class SecondSmallest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
