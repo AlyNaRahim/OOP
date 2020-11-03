@@ -1,2 +1,2 @@
 # OOP
-Class projects and assignments on object oriented programming in Java
+Class projects and assignments on object oriented programming
