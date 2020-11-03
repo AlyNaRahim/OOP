@@ -1,4 +1,6 @@
 import java.util.Scanner;
+/* Write a program that takes input 10 integer numbers and stores in an array. 
+Count the series of 2 or more adjacent elements in an array and output the number of adjacent elements in the Array. */
 
 public class AdjacentArrayElements {
     public static void main(String[] args) {
@@ -41,8 +43,8 @@ public class AdjacentArrayElements {
             temp = numbers[i];
         }
 
-        if (count == 9){
-            return 1;
+        if (count == 9){ 
+            return 1; // if all 10 elements are similar 
         } else {
             return count2;
         }
