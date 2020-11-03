@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* Write a Java static method called wordLengths() that accepts a string. 
+Your method should count the number of letters in each word in the string, and output a bar chart of how many letters contain each word. */
+
 public class WordLengthes {
     public static void main(String[] args) {
         // input from user and splitting based on space
