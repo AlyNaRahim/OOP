@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* Consider the leftmost and rightmost appearances of some value in an array. 
+Span is the count of all the elements between two repeating elements including the repeated elements. 
+Implement the Java static method maxSpan() that returns the maximum span from the received array of integers. */
+
 public class MaximumSpan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
