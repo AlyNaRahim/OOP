@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* Write a Java program that implements the function named zeroEnd so that it returns an array that contains the exact same numbers as the given array, 
+but rearranged so that all the zeros are grouped at the front of the array. The order of the non-zero numbers does not matter */
+
 public class ZeroFront {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
