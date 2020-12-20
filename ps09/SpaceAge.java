@@ -1,43 +1,71 @@
-package ps09;
-
 public class SpaceAge {
     private static final double EARTH_YEARS_IN_SECONDS = 365.25 * 24 * 60 * 60;
-    private int ageInSeconds;
+    private double age;
 
-    public SpaceAge(int ageInSeconds) {
-        this.ageInSeconds = ageInSeconds;
+    public SpaceAge(double age) {
+        this.age = age;
     }
 
-    public double AgeOnEarth(){
-        return ageInSeconds / EARTH_YEARS_IN_SECONDS;
+    public double onEarth(){
+        double val = (age / EARTH_YEARS_IN_SECONDS) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnMercury() {
-        return AgeOnEarth() / 0.2408467;
+    public double onMercury() {
+        double val = (onEarth() / 0.2408467) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnVenus() {
-            return AgeOnEarth() / 0.61519726;
+    public double onVenus() {
+        double val = (onEarth() / 0.61519726) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
         }
 
-    public double OnMars() {
-        return AgeOnEarth() / 1.8808158;
+    public double onMars() {
+        double val = (onEarth() / 1.8808158) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnJupiter() {
-        return AgeOnEarth() / 11.862615;
+    public double onJupiter() {
+        double val = (onEarth() / 11.862615) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnSaturn() {
-        return AgeOnEarth() / 29.447498;
+    public double onSaturn() {
+        double val = (onEarth() / 29.447498) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnUranus () {
-        return AgeOnEarth() / 84.016846;
+    public double onUranus () {
+        double val = (onEarth() / 84.016846) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
-    public double OnNeptune () {
-        return AgeOnEarth() / 164.79132;
+    public double onNeptune () {
+        double val = (onEarth() / 164.79132) * 100;
+        val = Math.round(val);
+        val = val /100;
+        return val;
     }
 
+    @Override
+    public String toString() {
+        return "SpaceAge{" +
+                "ageInSeconds=" + age +
+                '}';
+    }
 }
